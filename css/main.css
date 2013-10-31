@@ -1,0 +1,226 @@
+/* ----------------- */
+/* Protect The NSA */
+/* ----------------- */
+
+body,
+h1,h2,h3,h4,h5,h6 {
+  font-family: "proxima-nova-condensed", sans-serif;
+  color: #3f3f3f;
+}
+
+body {
+  border-top: 8px solid #1594bf;
+}
+
+/* semibold */
+strong {
+  font-weight: 600;
+}
+
+/* Global Styles */
+.tac {
+  text-align: center;
+}
+
+.section-title {
+  color: #9f9d9d;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 46px;
+}
+
+
+/* Intro Title */
+
+.intro-title h1 {
+  font-size: 27px;
+}
+
+.intro-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+
+
+/* Summary of the Bills */
+
+.bills-summary .panel {
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+
+
+/* The USA Freedom Act */
+/* parent div: .bills-summary */
+/* div: .usa-freedom-act */
+/* border color: #1fda26 */
+/* gradient-end: #e5fbe6 */
+
+.usa-freedom-act .panel {
+  border: 1px solid #1fda26;
+  background-color: #F07575;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e5fbe6)); 
+  background-image: -webkit-linear-gradient(top, #fff, #e5fbe6); 
+  background-image: -moz-linear-gradient(top, #fff, #e5fbe6); 
+  background-image: -ms-linear-gradient(top, #fff, #e5fbe6); 
+  background-image: -o-linear-gradient(top, #fff, #e5fbe6); 
+  background-image: linear-gradient(to bottom, #fff, #e5fbe6);
+}
+
+.bills-summary .usa-freedom-act h3 {
+  color: #1fda26;
+}
+
+
+
+/* The Intelligence Communication Bill */
+/* parent div: .bills-summary */
+/* div: .intelligence-comm-bill */
+/* border color: #ff5e3a */
+/* gradient-end: #ffeae5 */
+
+.intelligence-comm-bill .panel {
+  border: 1px solid #ff5e3a;
+  
+  background-color: #ffeae5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ffeae5)); 
+  background-image: -webkit-linear-gradient(top, #fff, #ffeae5); 
+  background-image: -moz-linear-gradient(top, #fff, #ffeae5); 
+  background-image: -ms-linear-gradient(top, #fff, #ffeae5); 
+  background-image: -o-linear-gradient(top, #fff, #ffeae5); 
+  background-image: linear-gradient(to bottom, #fff, #ffeae5);
+}
+
+.bills-summary .intelligence-comm-bill h3,
+.bills-summary .intelligence-comm-bill h3 small {
+  color: #ff5e3a;
+}
+
+
+/* The Headings inside the Bills Summary on Top */
+
+.bills-summary h3 {
+  font-size: 37px;
+  font-weight: 300;
+  margin-top: 16px;
+  line-height: 0.7em;
+}
+
+.bills-summary h3 small {
+  font-size: 20px;
+}
+
+.bills-summary h4 {
+  font-size: 27px;
+}
+
+.bills-summary h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.bills-summary h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bills-summary .media-body span {
+  font-style: italic;
+}
+
+
+/* Call Legislators Area */
+/* Full width container with blue gradient background */
+
+.call-legislators {
+  background-color: #193d97;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1087b4), to(#193d97)); 
+  background-image: -webkit-linear-gradient(top, #1087b4, #193d97); 
+  background-image: -moz-linear-gradient(top, #1087b4, #193d97); 
+  background-image: -ms-linear-gradient(top, #1087b4, #193d97); 
+  background-image: -o-linear-gradient(top, #1087b4, #193d97); 
+  background-image: linear-gradient(to bottom, #1087b4, #193d97);
+  
+  color: #fff;
+}
+
+.call-legislators h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+}
+
+.btn-area {
+  width: 360px;
+  margin: 16px auto 22px;
+}
+
+.btn-call {
+  background-color: #10d51b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#84fb6e), to(#10d51b)); 
+  background-image: -webkit-linear-gradient(top, #84fb6e, #10d51b); 
+  background-image: -moz-linear-gradient(top, #84fb6e, #10d51b); 
+  background-image: -ms-linear-gradient(top, #84fb6e, #10d51b); 
+  background-image: -o-linear-gradient(top, #84fb6e, #10d51b); 
+  background-image: linear-gradient(to bottom, #84fb6e, #10d51b);
+  
+  color: #262626;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-call:hover {10d51b
+  background-color: #84fb6e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#10d51b), to(#84fb6e)); 
+  background-image: -webkit-linear-gradient(top, #10d51b, #84fb6e); 
+  background-image: -moz-linear-gradient(top, #10d51b, #84fb6e); 
+  background-image: -ms-linear-gradient(top, #10d51b, #84fb6e); 
+  background-image: -o-linear-gradient(top, #10d51b, #84fb6e); 
+  background-image: linear-gradient(to bottom, #10d51b, #84fb6e);
+  
+  color: #262626;
+}
+
+
+
+/* The Medium Length Bills Summary at the end */
+/* .bills-medium-summary */
+
+.bills-medium-summary .usa-freedom-act h3 {
+  color: #1fda26;
+  border-bottom: 1px solid #1fda26;
+}
+
+.bills-medium-summary .intelligence-comm-bill h3 {
+  color: #ff5e3a;
+  border-bottom: 1px solid #ff5e3a;
+}
+
+
+
+/* Logos */
+.logos {
+  margin-top: 16px;
+}
+
+
+/* Footer */
+.footer {
+  text-align: right;
+  font-size: 14px;
+  color: #323232;
+  padding-top: 70px;
+}
+
+.footer .built-by {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.footer a.join-us {
+  font-weight: 600;
+}
