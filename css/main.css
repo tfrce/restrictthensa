@@ -12,6 +12,8 @@ body {
   border-top: 8px solid #1594bf;
 }
 
+.container {max-width: 950px;}
+
 /* semibold */
 strong {
   font-weight: 600;
@@ -20,6 +22,11 @@ strong {
 /* Global Styles */
 .tac {
   text-align: center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 .section-title {
@@ -33,13 +40,15 @@ strong {
 /* Intro Title */
 
 .intro-title h1 {
-  font-size: 27px;
+  font-size: 38px;
+  margin-top:20px;
 }
 
 .intro-title h2 {
-  font-size: 32px;
+  font-size: 55px;
   font-weight: 600;
   margin-top: 10px;
+  margin-bottom:30px;
 }
 
 
