@@ -12,7 +12,7 @@ body {
   border-top: 8px solid #1594bf;
 }
 
-.container {max-width: 950px;}
+.container {max-width: 950px;margin-bottom: 20px;}
 
 /* semibold */
 strong {
@@ -41,7 +41,7 @@ strong {
 
 .intro-title h1 {
   font-size: 38px;
-  margin-top:20px;
+  margin-top: 35px;
 }
 
 .intro-title h2 {
@@ -69,6 +69,10 @@ strong {
 /* border color: #1fda26 */
 /* gradient-end: #e5fbe6 */
 
+.bills-summary .panel {
+  margin-bottom: 6px;
+}
+
 .usa-freedom-act .panel {
   border: 1px solid #1fda26;
   background-color: #F07575;
@@ -82,6 +86,8 @@ strong {
 
 .bills-summary .usa-freedom-act h3 {
   color: #1fda26;
+  padding-top: 13px;
+  /* margin-bottom: 37px; */
 }
 
 
@@ -104,19 +110,37 @@ strong {
   background-image: linear-gradient(to bottom, #fff, #ffeae5);
 }
 
-.bills-summary .intelligence-comm-bill h3,
-.bills-summary .intelligence-comm-bill h3 small {
+.bills-summary .intelligence-comm-bill h3 {
   color: #ff5e3a;
 }
 
+.bills-medium-summary p {
+  font-size: 18px;
+}
+
+.bills-medium-summary h3 {
+  font-size:30px;
+  margin-bottom: 14px;
+}
+
+.bills-summary .intelligence-comm-bill h3 small {
+  color: #3f3f3f;
+  font-weight: bold;
+}
+
+label {font-size: 17px;line-height: 16px;}
+
+label span {font-size: 14px;font-weight: normal;/* line-height: 13px; *//* height: 20px; */}
 
 /* The Headings inside the Bills Summary on Top */
 
 .bills-summary h3 {
   font-size: 37px;
   font-weight: 300;
-  margin-top: 16px;
+  margin-top: 9px;
   line-height: 0.7em;
+  font-weight: bold;
+  height: 53px;
 }
 
 .bills-summary h3 small {
@@ -124,7 +148,10 @@ strong {
 }
 
 .bills-summary h4 {
-  font-size: 27px;
+  font-size: 33px;
+  margin-top: 20px;
+  line-height: 1.2;
+  margin-bottom: 0;
 }
 
 .bills-summary h5 {
@@ -160,13 +187,27 @@ strong {
 .call-legislators h2 {
   text-align: center;
   color: #fff;
-  font-size: 36px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.btn-area {
-  width: 360px;
-  margin: 16px auto 22px;
+.call-legislators h2 span {
+  text-decoration: underline;
+  }
+
+.call-legislators form label {
+  font-weight:normal;
+  font-size: 18px;
+  padding-bottom: 3px;
 }
+
+#inputSignup {
+  display:inline-block;
+  margin-bottom: 10px;
+  padding-right:10px;
+}
+
+
 
 .btn-call {
   background-color: #10d51b;
@@ -177,9 +218,9 @@ strong {
   background-image: -o-linear-gradient(top, #84fb6e, #10d51b); 
   background-image: linear-gradient(to bottom, #84fb6e, #10d51b);
   
-  color: #262626;
-  font-size: 24px;
-  font-weight: 600;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 400;
 }
 
 .btn-call:hover {10d51b
@@ -189,9 +230,55 @@ strong {
   background-image: -moz-linear-gradient(top, #10d51b, #84fb6e); 
   background-image: -ms-linear-gradient(top, #10d51b, #84fb6e); 
   background-image: -o-linear-gradient(top, #10d51b, #84fb6e); 
-  background-image: linear-gradient(to bottom, #10d51b, #84fb6e);
+  background-image: linear-gradient(to top, #0BB215, #62D84D);
   
-  color: #262626;
+  color: #fff;
+}
+
+
+/* ============================ */
+/* Custom checkbox CSS */
+/* ============================ */
+
+
+input[type=checkbox].css-checkbox {
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding:0;
+    border:0;
+}
+
+.klaus{background-image:url(/img/checkbox.png);}
+
+
+.btn-area {
+  width: 360px;
+  margin: 16px auto 22px;
+}
+
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+  padding-left: 26px;
+  height:20px; 
+  display:inline-block;
+  line-height:20px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size: 13px;
+  vertical-align:middle;
+    cursor:pointer;
+  line-height: 1.3;
+  margin-top: 3px;
+}
+
+label.css-label.klaus {font-weight: 100; }
+
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
+
+    background-position: 0 -20px;
 }
 
 
